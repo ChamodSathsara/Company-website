@@ -111,7 +111,7 @@ export function Navbar() {
     if (transitioning && nextHref) {
       router.push(nextHref);
       /* Give the new page a frame to mount, then dismiss overlay */
-      setTimeout(() => setTransitioning(false), 500);
+      setTimeout(() => setTransitioning(false), 400);
     }
   };
 
